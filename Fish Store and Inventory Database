@@ -1,0 +1,8 @@
+CREATE TABLE fish_store (id INTEGER PRIMARY KEY, item TEXT, inventory INTEGER);
+INSERT INTO fish_store VALUES (1, "Blue Fish", 16);
+INSERT INTO fish_store VALUES (2, "Red Fish", 18);
+INSERT INTO fish_store VALUES (3, "Green Fish", 16);
+INSERT INTO fish_store VALUES (4, "Black Fish", 19);
+INSERT INTO fish_store VALUES (6, "White Fish", 17);
+SELECT * FROM fish_store;
+SELECT * FROM fish_store WHERE inventory >17;
